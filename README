@@ -1,0 +1,16 @@
+README
+======
+
+Wyv turns HQEMU, an enhancement of QEMU built upon LLVM optimizations into
+a Dynamic Binary Translating Instruction Set Randomizer meant to provide
+elevated security for userland processes.
+
+It is still in development stage, but is meant to eventually be added to
+Linux binfmt and run any executable including web browsers.
+
+You can use it like "wyv /usr/bin/test"
+
+Academics
+=========
+- https://llvm.org/devmtg/2021-02-28/slides/Alexis-instrew.pdf 
+- https://www.cs.columbia.edu/~angelos/Papers/instructionrandomization.pdf
